@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    font: 1.1em Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+div {
+    margin: 0;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+div > img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+}
+
+.container {
+    column-count: 3;
+    column-gap: 10px;
+}
